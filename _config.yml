@@ -11,6 +11,8 @@ title: Steven Cao's Stuff
 # Your name to show in the footer
 author: Steven Cao
 
+baseurl: /commtech-site
+
 # --- List of links in the navigation bar --- #
 
 navbar-links:
