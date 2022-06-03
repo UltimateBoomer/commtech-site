@@ -8,9 +8,9 @@ comments: true
 
 Do you enjoy the music of the Zelda CDI games despite its questionable gameplay? Here's two audio visualizer videos of the games' soundtracks.
 
-<video width="100%" muted autoplay controls loop>
-    <source src="{{ site.baseurl}}/assets/img/2022-05-31-my-3d-logo/render.mp4" type="video/mp4">
-</video>
+<iframe src="https://drive.google.com/file/d/1BYSdyZmUE9JwOS7pcP4wZXijbNS2g-QA/preview" style="width: 100%; height: 100%; aspect-ratio: 16 / 9"></iframe>
+
+<iframe src="https://drive.google.com/file/d/19COPjAbBfyWIgjdHXh85KGr47pVwBNrE/preview" style="width: 100%; height: 100%; aspect-ratio: 16 / 9"></iframe>
 
 ## Overview
 
@@ -87,27 +87,41 @@ I took 3 foreground sprites from a cutscene from the game. They were animated in
 
 To distinguish the foreground and background, I made the audio-based effects more intense than the background.
 
-### Foreground - Ganon Project
+### Ganon Project
+
+![screenshot14]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/screenshot14.png){: }
 
 For each scene, I chose 2 frame ranges in the cutscene animation with the same character in a different pose, and switched the 2 animations based on the audio. The result is that the sprite moves according to the beat or bassline of the music.  I used the same driver for the scaling effect on the sprites.
 
 One problem I’ve ran into with animating in this way is the excessively flashing images caused by switching the animation too fast, which although I desired, it was too distracting. To resolve this, I added a frame blending node to tween adjacent frames. This does not solve the entire problem, but it makes the animation slightly smoother to watch.
 
+![screenshot15]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/screenshot15.png){: }
+
 In the last scene, I added a glow effect to accentuate the bright colors (lightning bolt) on the subject.
 
 ## Color Grading
 
+![screenshot16]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/screenshot17.png){: }
+
 As the video composite still look somewhat “normal”, I experimented with color grading tools in Davinci Resolve to give each scene a more distinct look. Similar to what I’ve done in the tutorial, I used compositing to add a specific colored tint to each scene. This was done mostly by adjusting the options surrounding the primary color wheel. As an example, I shifted the color temperature towards warmer colors in scenes that contains lava in the background to make the clip feel warmer, and I boosted the blue color in the last scene of the Ganon project to emphasize the lightning bolts. I kept the color grading effects subtle to ensure it does not look overdone. For basic coloring like what I did for my projects, I did not find color grading to be too difficult.
+
+![screenshot17]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/screenshot18.png){: }
 
 ## Combining and Editing The Video
 
+![screenshot19]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/screenshot19.png){: }
+
 After I finished creating the scenes, I sequenced them with the video editor, which I learned how to use in the tutorials. I added transitions between clips, and subtitles for each scene to show the name of the music being played.
+
+![screenshot18]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/screenshot18.png){: }
 
 To draw all the text in the video, I used the basic text effect I used in my tutorials to show the main title and track titles. For the font, I chose Palatino Linotype, a serif font that is appropriate to the theme of the video game. When necessary, I used drop shadows to ensure best visibility of the text.
 
 For each project, I added an elaborate intro and/or outro. These consists of a short animation that composes part of the cutscenes. Overall, the whole process of editing the video was fairly straightforward compared to making the audio visualizer itself. After the project is finished, I exported the video in 1080p 60fps format.
 
 ## Conclusion
+
+![morshu]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/morshu.gif){: width="35%" align="right" style="margin:1em"}
 
 This project is overall a success despite the relatively short time frame I had to work on the project. The results were much better than my expectations, which looks pretty clean for the effect I was trying to accomplish. I especially enjoyed making the Ganon project. I made each scene give off a somewhat different vibe by altering every effect slightly, some with more camera shake or blur than others. Although audio visualization is not a novel idea, I came up with ways to make the project more distinct, namely using a moving background and animating character movements.
 
