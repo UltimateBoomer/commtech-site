@@ -17,6 +17,9 @@ baseurl: /commtech-site
 
 navbar-links:
   About Me: "aboutme"
+  Projects:
+    - 3D Logo: "/2022-05-31-my-3d-logo"
+    - Zelda CDI Music Visualizer: "/2022-06-01-zelda-cdi-music-visualizer"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
@@ -104,17 +107,17 @@ post_search: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
+navbar-col: "#e1fafa"
 navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
+page-col: "#edfafa"
 text-col: "#404040"
 link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#EAEAEA"
+hover-col: "#3c5a82"
+footer-col: "#e1fafa"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+footer-hover-col: "#b9bf0b"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
