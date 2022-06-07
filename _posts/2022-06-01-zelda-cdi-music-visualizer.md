@@ -16,13 +16,15 @@ Do you enjoy the music of the Zelda CDI games despite its questionable gameplay?
 
 I created 2 video composites that visualizes the music of two infamous video games: “Link: The Faces of Evil” and “Zelda: Wand of Gamelon”. I chose Davinci Resolve as the video editor tool as it is free to use with most functions intact, and I want to learn a new piece of video editing software. Davinci Resolve is similar to Adobe Premiere pro with its video editing features, and its Fusion tool is similar to Adobe After Effects in what it can achieve. For each project, I used Davinci Resolve’s Fusion tool to generate the audio spectrum, and to sync animation effects to the audio. 
 
-## Assets Used
+## Behind The Scenes
+
+### Assets Used
 
 ![vidasset1]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/vidasset1.png){: }
 
 The assets used are from Link: Faces of Evil and Zelda: Wand of Gamelon. The sprites are found on spriters-resource.com. Some of the background images were originally animated with overlaid frames, so I used Gimp to recreate the complete backgrounds. The music is originally composed by Tony Trippi for the two games, and was remixed in this project to create a stereo effect. I chose this video game specifically because it has been an internet phenomenon for over a decade now, and I also want to spread the hidden gem that is the soundtrack of both video games.
 
-## Music
+### Music
 
 ![screenshot1]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/screenshot1.png){: width="35%" align="right" style="margin:1em"}
 
@@ -32,12 +34,12 @@ For some of the tracks, I used an equalizer effect to reduce excessive loudness 
 
 ![screenshot2]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/screenshot2.png){: width="25%" align="right" style="margin:1em"}
 
-## Planning and Designing
+### Planning and Designing
 
 
 As part of pre-production, I created storyboards for the two videos, and noted specific requirements and effects used for each section of the project.
 
-## Audio Visualizer
+### Audio Visualizer
 
 ![screenshot3]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/screenshot3.png){: width="40%" align="right" style="margin:1em"}
 
@@ -47,7 +49,7 @@ The audio spectrum visualizer is made in Fusion using an audio visualizer plugin
 
 While the plugin produces great-looking results, it was very slow for my liking. So, I decided to render the spectrum at a lower resolution compared to what I did in the tutorial. For the final project, I rendered the audio spectrum at 1/5 of 1080p, and upscaled it in nearest neighbor mode to the appropriate size. This essentially created a pixelation effect on the audio spectrum, which is fitting for depicting a video game soundtrack while improving performance somewhat. The spectrum is then merged with a background gradient to add the chosen color palette for each spectrum. Finally, I added a glowing effect to the spectrum. I placed the audio visualizer to the very front of the layer stack so it is always visible and frames the foreground. 
 
-## Particle Systems
+### Particle Systems
 
 ![screenshot6]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/screenshot6.png){: height="200em"}
 ![screenshot7]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/screenshot7.png){: height="200em"}
@@ -61,7 +63,7 @@ I used a particle system that was animated to the beat of the music in my previo
 
 I spent some time planning where to best use particles, and how it should look. For the Tykogi Tower project, the particles are spawned in a spherical area with upwards velocity, and a rotating force was applied to the particles causing them to spin in a cyclone like fashion. I merged the particles with the audio spectrum, which adds the same pixelation effect and gradient to the particles. The result looks very fitting in my opinion. I reused the effect for the intro of the Ganon project, which contains the same vortex effect but in the horizontal direction and with different parameters.
 
-## Background
+### Background
 
 ![vidasset2]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/vidasset2.png){: }
 
@@ -75,9 +77,9 @@ As part of visualizing audio, I added a camera shake effect and a scaling effect
 
 ![screenshot11]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/screenshot11.png){: }
 
-## Foreground
+### Foreground
 
-### Tykogi Tower Project
+#### Tykogi Tower Project
 
 ![screenshot12]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/screenshot12.png){: }
 
@@ -87,7 +89,7 @@ I took 3 foreground sprites from a cutscene from the game. They were animated in
 
 To distinguish the foreground and background, I made the audio-based effects more intense than the background.
 
-### Ganon Project
+#### Ganon Project
 
 ![screenshot14]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/screenshot14.png){: }
 
@@ -99,7 +101,7 @@ One problem I’ve ran into with animating in this way is the excessively flashi
 
 In the last scene, I added a glow effect to accentuate the bright colors (lightning bolt) on the subject.
 
-## Color Grading
+### Color Grading
 
 ![screenshot16]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/screenshot17.png){: }
 
@@ -107,7 +109,7 @@ As the video composite still look somewhat “normal”, I experimented with col
 
 ![screenshot17]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/screenshot18.png){: }
 
-## Combining and Editing The Video
+### Combining and Editing The Video
 
 ![screenshot19]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/screenshot19.png){: }
 
@@ -119,7 +121,7 @@ To draw all the text in the video, I used the basic text effect I used in my tut
 
 For each project, I added an elaborate intro and/or outro. These consists of a short animation that composes part of the cutscenes. Overall, the whole process of editing the video was fairly straightforward compared to making the audio visualizer itself. After the project is finished, I exported the video in 1080p 60fps format.
 
-## Conclusion
+### Conclusion
 
 ![morshu]({{ site.baseurl}}/assets/img/2022-06-01-zelda-cdi-music-visualizer/morshu.gif){: width="35%" align="right" style="margin:1em"}
 
