@@ -140,6 +140,7 @@ img {
 .navbar-custom.top-nav-short-permanent {
   padding-top: 0;
   padding-bottom: 0;
+  image-rendering: pixelated
 }
 
 .navbar-custom .navbar-brand {
