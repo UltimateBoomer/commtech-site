@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Zelda CDI Music Visualizer
-subtitle: Making an audio visualizer in Davinci Resolve
+subtitle: Davinci Resolve Fusion and video editing
 tags: [commtech]
 comments: true
 ---
