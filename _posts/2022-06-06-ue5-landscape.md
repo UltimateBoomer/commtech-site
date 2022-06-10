@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unreal Engine 5 Landscape Project: Island 2108"
+title: "Island 2108"
 subtitle: Unreal Engine 5 level creation and animation
 tags: [commtech]
 comments: true
