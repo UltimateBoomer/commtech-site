@@ -11,5 +11,5 @@ My name is Steven Cao. I am currently a high school student at Bluevale CI, in W
 
 My recent works are several Minecraft mods that focuses on simple improvements to the performance and function to the game.
 
-Aside from programming, I have done works in communication technology. You can check out my projects with the navbar. 
+Aside from programming, I have done works in communication technology. You can check out my projects in the navbar. 
 
