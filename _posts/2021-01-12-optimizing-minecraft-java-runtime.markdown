@@ -3,7 +3,7 @@ title: "Optimizing Minecraft Java Runtime"
 description: "Test"
 date: 2021-1-12
 categories: minecraft
-published: true
+published: false
 ---
 
 I tested some ways to optimize Minecraft and improve the default Java Edition setup.
