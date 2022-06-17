@@ -112,7 +112,7 @@ I implemented my design in the editor, and the result looks pretty good. I put t
 
 ![screenshot22]({{ site.baseurl}}/assets/posts/2022-06-06-ue5-landscape/screenshot22.png){: height="200em"}
 
-To make the video presentation, I used Davinci Resolve, which I learned how to use in the last ISU. I split the sections in rendered video, and added titles and transitions. I performed color correction to give the video a colder colored stylization. I also added some music by C418 from Minecraft, with attribution at the end of the video. I modified the music slightly, by changing the pitch and speed to create a good feeling of scale. As I already learned to edit down a video from ISU 2, I didn’t have any trouble in making the video itself, and the final product looks great to me.
+To make the video presentation, I used Davinci Resolve, which I learned how to use in the last ISU. I split the sections in rendered video, and added titles and transitions. I performed color correction to give the video a colder colored stylization. I also added some music by C418 from Minecraft, with attribution at the end of the video. I modified the music slightly, by changing the pitch and speed to create a good feeling of scale. As I already learned to edit down a video from the previous audio visualizer project, I didn’t have any trouble in making the video itself, and the final product looks great to me.
 
 ### Conclusion
 
